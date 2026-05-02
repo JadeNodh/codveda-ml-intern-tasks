@@ -64,6 +64,73 @@ Built a Linear Regression model to predict house prices.
 
 ---
 
+# ✅ Level 2 – Intermediate Machine Learning
+
+## 🔹 Task 1: Logistic Regression
+
+### 📌 Description:
+Built a Logistic Regression model to predict customer churn.
+
+### 📊 Dataset:
+- Churn Prediction Dataset (churn-bigml-80.csv)
+
+### ⚙️ Steps Performed:
+- Loaded and cleaned the churn dataset
+- Dropped unnecessary columns (State, Area code)
+- Encoded categorical variables using Label Encoding
+- Scaled features using StandardScaler
+- Split dataset into training and testing sets (80/20)
+- Trained Logistic Regression model
+- Evaluated model performance
+
+### 📈 Evaluation Metrics:
+- Accuracy Score
+- Confusion Matrix
+- Classification Report (Precision, Recall, F1-Score)
+
+### 🔍 Insights:
+- Features like account length, charges, and customer service calls are key predictors for churn
+- Binary classification distinguishes between churned and retained customers
+
+### 🛠️ Tools Used:
+- Python
+- Pandas
+- Scikit-learn
+
+---
+
+## 🔹 Task 2: K-Means Clustering
+
+### 📌 Description:
+Built a K-Means Clustering model for customer segmentation.
+
+### 📊 Dataset:
+- Churn Prediction Dataset (churn-bigml-80.csv)
+
+### ⚙️ Steps Performed:
+- Loaded and preprocessed the dataset
+- Removed target variable (unsupervised learning approach)
+- Scaled features using StandardScaler
+- Applied Elbow Method to find optimal number of clusters
+- Applied K-Means with K=3 clusters
+- Visualized clusters in 2D space
+
+### 📈 Evaluation Metrics:
+- Within-Cluster Sum of Squares (WCSS) for Elbow Method
+- Cluster distribution analysis
+
+### 🔍 Insights:
+- Customers naturally segment into distinct groups based on usage patterns
+- Elbow method shows optimal K around 3-4 clusters
+
+### 🛠️ Tools Used:
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib (for visualization)
+
+---
+
 # 🚀 Key Learnings
 
 - Data preprocessing and cleaning techniques
